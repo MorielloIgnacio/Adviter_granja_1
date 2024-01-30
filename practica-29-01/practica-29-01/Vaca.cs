@@ -18,7 +18,7 @@ namespace practica_29_01
 
         
 
-        public override void Comer(int cantidadComida) 
+        public override void Comer(decimal cantidadComida) 
         {
             this.peso += cantidadComida / 3;
             this.sed = true;

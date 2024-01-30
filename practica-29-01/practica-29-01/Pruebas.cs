@@ -20,7 +20,7 @@ namespace practica_29_01
             lola.Comer(50000);
             lola.Beber();
 
-            Cerdo cerdito = new Cerdo(3000,false,false,true,0);
+            Cerdo cerdito = new Cerdo(925000, false, false, true, 0);
             Gallina gallinita = new Gallina(2500, false, 0);
             ComederoNormal comedero = new ComederoNormal(150000, 60, 10, 100);
 
@@ -34,10 +34,16 @@ namespace practica_29_01
             comedero.ValidarAnimal(cerdito);
             comedero.ValidarAnimal(gallinita);
 
-            ConfigurationManager.AppSettings["variable"].ToString();
+
+            ComederoInteligente comederoInteligente = new ComederoInteligente(17500);
+            comederoInteligente.ValidarAnimal(cerdito);
+            comederoInteligente.ValidarAnimal(cerdito);
+            comederoInteligente.ValidarAnimal(cerdito);
+
             Console.ReadKey();
+
         }
-        
+
     }
 
 }

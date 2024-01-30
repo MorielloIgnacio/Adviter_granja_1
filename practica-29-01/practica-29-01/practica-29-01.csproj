@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cerdo.cs" />
+    <Compile Include="ComederoInteligente.cs" />
     <Compile Include="Vaca.cs" />
     <Compile Include="Pruebas.cs" />
     <Compile Include="ComederoNormal.cs" />

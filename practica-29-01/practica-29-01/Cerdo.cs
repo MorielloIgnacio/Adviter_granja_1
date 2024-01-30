@@ -8,7 +8,7 @@ namespace practica_29_01
 {
     public class Cerdo : Animal
     {
-        int mayorCantidadComida = 0;
+        decimal mayorCantidadComida = 0;
 
         public Cerdo(decimal peso, bool vacuna, bool sed, bool hambre, int vecesComio) { 
         this.peso = peso;
@@ -20,7 +20,7 @@ namespace practica_29_01
         }
 
 
-        public override void Comer(int cantidadComida)
+        public override void Comer(decimal cantidadComida)
         {
             if (cantidadComida > 200)
             {

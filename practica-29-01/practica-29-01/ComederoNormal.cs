@@ -55,8 +55,6 @@ namespace practica_29_01
             return racionesEnGramos;
         }
 
-
-        Configuration.
     }
 
 

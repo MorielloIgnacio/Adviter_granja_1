@@ -36,7 +36,7 @@ namespace practica_29_01
 
         //}
 
-        abstract public void Comer(int cantidadComida);
+        abstract public void Comer(decimal cantidadComida);
 
         abstract public void Beber();
 
