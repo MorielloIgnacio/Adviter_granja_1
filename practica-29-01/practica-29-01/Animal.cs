@@ -9,7 +9,7 @@ namespace practica_29_01
     abstract public class Animal
     {
         protected decimal peso { get; set; }
-        protected bool vacuna { get; set; } = false;
+        public bool vacuna { get; set; } = false;
         protected bool sed{ get; set; } = false;
         protected bool hambre { get; set; } = false;
         protected int vecesComio { get; set; } = 0;
@@ -24,6 +24,15 @@ namespace practica_29_01
             return this.hambre;
         }
 
+        public bool getSed()
+        {
+            return this.sed;
+        }
+
+        public bool getTieneVacuna()
+        {
+            return this.vacuna;
+        }
 
 
         //public Animal(decimal peso, bool vacuna, bool sed, bool hambre, int vecesComio) 

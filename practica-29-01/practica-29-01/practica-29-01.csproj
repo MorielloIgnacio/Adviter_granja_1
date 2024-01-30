@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bebedero.cs" />
     <Compile Include="Cerdo.cs" />
     <Compile Include="ComederoInteligente.cs" />
     <Compile Include="Vaca.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="Gallina.cs" />
     <Compile Include="Animal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vacunatorios.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
